@@ -5,35 +5,47 @@
  */
 package ec.edu.espe.pmsstore.model;
 
+import com.google.gson.Gson;
 import java.util.ArrayList;
+import java.util.Scanner;
 
 /**
  *
  * @author luist
  */
 public class Store {
-    
+
     private String name;
     private ArrayList<Assistant> assistant;
     private ArrayList<Client> client;
     private Owner owner;
     private ArrayList<Product> product;
+   
 
-    
-    
-    
     @Override
     public String toString() {
-        return "Store{" + "name=" + name + ", assistant=" + 
-                assistant + ", client=" + client + ", owner=" + 
-                owner + ", product=" + product + '}';
+        return "Store{" + "name=" + name + ", assistant="
+                + assistant + ", client=" + client + ", owner="
+                + owner + ", product=" + product + '}';
     }
 
-    
-    
-    
-    
-    /**
+    public Store() {
+
+    }
+
+    public void RegisterOwner(String name,Owner owner,String time) {
+        
+        System.out.println("Enter hour of register");
+        Scanner hour = new Scanner(System.in);
+        time = hour.nextLine();
+        Gson gson = new Gson();
+        String jsonRegister= "{\"Store\":root,\"Owner\":\"root\",\"time\":\"00/00/00\"}";
+        
+        
+       
+    }
+
+      /**
      * @return the name
      */
     public String getName() {
@@ -101,8 +113,10 @@ public class Store {
      */
     public void setProduct(ArrayList<Product> product) {
         this.product = product;
+    }  
+
     }
-    
-    
-    
-}
+
+   
+
+

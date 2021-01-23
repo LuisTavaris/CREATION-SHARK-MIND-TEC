@@ -5,17 +5,30 @@
  */
 package ec.edu.espe.pmsstore.model;
 
+import java.util.Scanner;
+
 /**
  *
- * @author luist
+ * @author amandar
  */
 public class Owner {
 
     private String name;
     private long id;
     private int telephone;
-    private User user;
-    private Password password;
+    private String user;
+    private String password;
+
+    public Owner() {
+        this.user = "root";
+        this.password = "rootpass";
+
+    }
+
+    @Override
+    public String toString() {
+        return "Owner{" + "user=" + user + ", password=" + password + '}';
+    }
 
     public void add(Assistant assitant) {
 
@@ -29,11 +42,11 @@ public class Owner {
 
     }
 
-    public void login(User user, Password password) {
+    public void login(String user, String password) {
+
+        
 
     }
-    
-    
 
     /**
      * @return the name
@@ -80,28 +93,28 @@ public class Owner {
     /**
      * @return the user
      */
-    public User getUser() {
+    public String getUser() {
         return user;
     }
 
     /**
      * @param user the user to set
      */
-    public void setUser(User user) {
+    public void setUser(String user) {
         this.user = user;
     }
 
     /**
      * @return the password
      */
-    public Password getPassword() {
+    public String getPassword() {
         return password;
     }
 
     /**
      * @param password the password to set
      */
-    public void setPassword(Password password) {
+    public void setPassword(String password) {
         this.password = password;
     }
 

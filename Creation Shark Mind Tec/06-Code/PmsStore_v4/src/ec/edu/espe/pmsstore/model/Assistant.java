@@ -9,48 +9,38 @@ import java.util.ArrayList;
 
 /**
  *
- * @author luist
+ * @author amandar
  */
 public class Assistant {
-    
+
     private String name;
     private long id;
     private int telephone;
-    private ArrayList<User> user;
-    private ArrayList<Password> password;
+    private String user;
+    private String password;
 
-    
     @Override
     public String toString() {
         return "Assistant{" + "name=" + name + ", id=" + id +
-                ", telephone=" + telephone + ", user=" + user 
-                + ", password=" + password + '}';
+                ", telephone=" + telephone + ", user=" + user +
+                ", password=" + password + '}';
     }
-    
-    
-    
-    
-     public void add(Client client){
-     
-     
-     }
-     
-      public void remove(Client client){
-     
-     
-     }
-      
-     public void search(Product product){
-     
-     
-     }
-     
-     public void login(User user ,Password password){
-     
-     
-     }
-     
-     
+
+    public void add(Client client) {
+
+    }
+
+    public void remove(Client client) {
+
+    }
+
+    public void search(Product product) {
+
+    }
+
+    public void login(String user, String password) {
+
+    }
 
     /**
      * @return the name
@@ -95,39 +85,17 @@ public class Assistant {
     }
 
     /**
-     * @return the user
-     */
-    public ArrayList<User> getUser() {
-        return user;
-    }
-
-    /**
      * @param user the user to set
      */
-    public void setUser(ArrayList<User> user) {
+    public void setUser(String user) {
         this.user = user;
-    }
-
-    /**
-     * @return the password
-     */
-    public ArrayList<Password> getPassword() {
-        return password;
     }
 
     /**
      * @param password the password to set
      */
-    public void setPassword(ArrayList<Password> password) {
+    public void setPassword(String password) {
         this.password = password;
     }
-    
-    
-    
-    
 
-    
-    
-    
-    
 }
