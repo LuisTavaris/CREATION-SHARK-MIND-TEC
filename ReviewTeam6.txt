@@ -11,7 +11,7 @@ Inspectors: Group 6 (Fail0verflow) Tipanguano Santamaria, Samantha Nicole
 
 Reviewers: OptimizedDiagnosticSystem_Fail0verflow
  
-Authors:   Group four (MAJOF Developers) 
+Authors:   Shark Mind Tec 
 
 
 01 Definition Folder
