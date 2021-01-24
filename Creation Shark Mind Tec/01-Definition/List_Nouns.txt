@@ -1,0 +1,28 @@
+List
+
+	Stores
+	system
+	supply
+	expiration
+	problem
+	products
+	company
+	warehouse
+	chain
+	management
+	decrease
+	pandemic
+	people
+	need
+	creation
+	inventory
+	store
+	owner
+	data
+	storage
+	quantity
+	price
+	sales
+	addition
+	user
+	
