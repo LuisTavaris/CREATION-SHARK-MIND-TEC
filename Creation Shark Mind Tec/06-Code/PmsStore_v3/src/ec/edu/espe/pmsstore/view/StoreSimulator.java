@@ -108,7 +108,7 @@ public class StoreSimulator {
                                     //serialization 
                                     jsonAssistant = gson.toJson(assistant);
                                     //save
-                                    Data.save("Assistant.json", jsonAssistant);
+                                    Data.save("Assistant.json", jsonAssistant+"\n");
                                     String assistant2;
                                     assistant2 = (assistant.name + "," + assistant.id + "," + assistant.telephone + "\n");
                                     Gson gson2 = new Gson();

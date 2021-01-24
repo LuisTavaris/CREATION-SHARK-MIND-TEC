@@ -18,6 +18,7 @@ public class Owner {
     private Password password;
 
     public void add(Assistant assitant) {
+        
 
     }
 
