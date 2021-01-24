@@ -1,0 +1,60 @@
+Inspectors: Group 6 (Fail0verflow) Tipanguano Santamaria, Samantha Nicole
+				   Tituaña Toapanta, Jhonatan David
+				   Toapanta Pichucho, Edison Javier
+				   Tomala Vera, Ruben Alfredo
+
+
+
+
+                        
+                  Roles                           
+
+Reviewers: OptimizedDiagnosticSystem_Fail0verflow
+ 
+Authors:   Group four (MAJOF Developers) 
+
+
+01 Definition Folder
+ -The document is not justified
+
+02 Requirements Folder
+ -The team does not have a logo
+ -The document does not have an index
+ -The document does not have a scope
+ -It does not show the information of those involved in the project.
+ -The document has no references or summary
+ -The document does not identify the type of maintenance required for the system
+
+
+04 UML Diagrams Folder
+
+Class Diagram
+ -Too many versions, only the latest version has been taken into account for the review.
+ -The diagram is not in its initial package as you have seen it according to the code
+ -A revision of the classes has been made, both code and diagram, but we have realized that the classes do not coincide with the classes of the code.
+ -In the Product class according to the code sent together with it, it has been seen that the category attribute is missing in the code, which is present in the diagram.
+ -In the Owner class, and according to the code that is sent with the same set, it has been seen that the "modify" method is missing in the code, which is present in the diagram.
+ -In the class diagram, the class "Password" and "User" are missing, which are present in the code but not in the diagram.
+ -There is no relationship between the two classes that are needed to complete the diagram, which must agree with the code.
+ -It has been seen that the classes that are needed in the diagram have not been used, it is recommended to remove those classes that do not have communication with each other, in order to improve the code and the relevant diagram.
+ -The dependency line from store to Product is missing
+ -The dependency line from Store to Owner is missing
+ -Dependency line from Store to Assitent is missing
+ -The dependency line from Store to Client is missing
+
+Uses Diagram
+ -When the download is complete, it has not come out as it should be represented.
+ -Methods have been found that are not added in the class diagram
+ -Found more added methods than in class diagram.
+
+06 Code Folder
+
+ -The project has several versions, however there must be only one specific version.
+ -Not all the classes created are related to each other.
+ -The created classes only have "getters" and "setters" but they don't do anything, some of them don't even have constructors.
+ -The first option does not do anything, it only prints a message that says "name" and the program does not advance.
+ -No exceptions are used to control the input of invalid data.
+ -In option 2 of the main menu, the user with password is entered, it displays another menu, however options 2 and 3 do nothing.
+ -It is not known how to terminate the program.
+ -Everything that the program does is done in the main class.
+
