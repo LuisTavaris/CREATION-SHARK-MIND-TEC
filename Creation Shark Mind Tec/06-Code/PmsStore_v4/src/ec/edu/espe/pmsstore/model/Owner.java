@@ -5,11 +5,10 @@
  */
 package ec.edu.espe.pmsstore.model;
 
-import java.util.Scanner;
 
 /**
  *
- * @author amandar
+ * @author luist
  */
 public class Owner {
 
@@ -31,7 +30,6 @@ public class Owner {
     }
 
     public void add(Assistant assitant) {
-        
 
     }
 

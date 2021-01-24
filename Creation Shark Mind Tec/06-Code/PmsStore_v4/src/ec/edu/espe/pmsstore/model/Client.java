@@ -7,7 +7,7 @@ package ec.edu.espe.pmsstore.model;
 
 /**
  *
- * @author amandar
+ * @author luist
  */
 public class Client {
 

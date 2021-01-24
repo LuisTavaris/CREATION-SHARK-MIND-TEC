@@ -5,11 +5,11 @@
  */
 package ec.edu.espe.pmsstore.model;
 
-import java.util.ArrayList;
+
 
 /**
  *
- * @author amandar
+ * @author luist
  */
 public class Assistant {
 
@@ -19,12 +19,18 @@ public class Assistant {
     private String user;
     private String password;
 
+    public Assistant(String name, long id, int telephone) {
+        this.name = name;
+        this.id = id;
+        this.telephone = telephone;
+    }
+
     @Override
     public String toString() {
-        return "Assistant{" + "name=" + name + ", id=" + id +
-                ", telephone=" + telephone + ", user=" + user +
-                ", password=" + password + '}';
+        return "Assistant{" + "name=" + name + ", id=" + id + ", telephone=" + telephone + '}';
     }
+
+   
 
     public void add(Client client) {
 
